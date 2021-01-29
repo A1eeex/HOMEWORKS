@@ -1,0 +1,34 @@
+body {
+    background-color: #ffe4c4;
+}
+
+#container .title {
+    display: none;
+}
+
+.title-new {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+.title-new.active {
+    background-color: #e9cf8f;
+    border-color: #000000;
+    border-bottom: 1px solid #e9cf8f;
+}
+
+.body {
+    display: none;
+}
+
+.active .body {
+    display: block;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 2em;
+    background-color: #e9cf8f;
+}
