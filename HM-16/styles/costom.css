@@ -1,0 +1,17 @@
+li {
+    list-style: none;
+}
+
+.user_photo {
+    width: 300px;
+    border-radius: 5%;
+}
+
+body {
+    background-color: rgba(177, 176, 176, 0.24)
+}
+
+.wrap {
+    text-align: center;
+    margin-top: 30px;
+}
