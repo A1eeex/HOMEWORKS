@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="styles/Skeleton/normalize.css" />
+    <link rel="stylesheet" href="styles/Skeleton/skeleton.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="js/styles.js" async></script>
+    <title>HM-19</title>
+</head>
+
+<body>
+
+    
+ <div class="wrapper">
+            <div id="listAlbums"></div>
+            <div id="listPhotos"></div>
+        </div>
+
+        <script id="listPhotoTemplate" type="text/template" >
+            <img class="photo-item" src="{{small-photo}}" alt="{{title}}"/>
+        </script>
+
+        <script id="listAlbumTemplate" type="text/template" >
+            <div class="album-item" data-id="{{id}}">{{title}} </div>
+        </script>
+
+
+</body>
+
+</html>
