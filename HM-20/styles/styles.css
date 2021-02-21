@@ -1,12 +1,16 @@
-.heder_edd_note_btn{
+#heder_edd_note_btn {
     right: 90px;
     top: 30px;
     position: fixed;
     background: beige;
 }
 
-.sticker_list{
+#sticker_list {
     margin-top: 110px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.delete_sticker_btn {
+    cursor: pointer;
 }
