@@ -1,0 +1,20 @@
+.todo-list {
+    margin-bottom:20px
+}
+
+.todo{
+    color: #555;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px 0;
+    font-size: 20px;
+    background-color: lightyellow;
+}
+
+.todo.done{
+    background-color: lightgreen;
+}
+.delete-btn{
+    float: right;
+}
