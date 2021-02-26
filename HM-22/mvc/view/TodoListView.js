@@ -6,6 +6,7 @@ class TodoListView {
         this._$el = this.initView()
         this._options = options
     }
+
     initView() {
         return $('<ul class "todo-list"></ul>')
             .on(

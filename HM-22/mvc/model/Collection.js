@@ -43,4 +43,19 @@ class Collection {
     get(id) {
         return this._list.find((item) => item.id === id)
     }
+
+    add(el){
+        
+        el.completed = false;
+
+        return fetch(this._url, {
+            method: 'POST',
+            body: JSON.stringify(el),
+            headers: {
+                'Content-Type' : 'application/json'
+            }
+        })
+        .then(resp => resp.json())
+        .then(task => this._list.push(task));
+    }
 }

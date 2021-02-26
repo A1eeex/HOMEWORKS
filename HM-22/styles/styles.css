@@ -11,10 +11,27 @@
     font-size: 20px;
     background-color: lightyellow;
 }
-
+.todo-form{
+    padding-right: 30px;
+    padding-left: 30px;
+}
 .todo.done{
     background-color: lightgreen;
+    margin: 10px 15px 0 15px;
 }
 .delete-btn{
     float: right;
+}
+
+.todo-btn:hover{
+background-color:rgb(85, 170, 99)
+}
+.todo-form{
+    display: flex;
+    justify-content:space-between;
+}
+#todo-input{
+    width: 100%;
+    background: #d7e3ee;
+    margin-right: 30px;
 }
