@@ -1,0 +1,22 @@
+.delete-btn {
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
+
+.new-student-section {
+    display: none;
+}
+
+.new-student-section.show {
+    display: inline-block;
+}
+
+#add_student {
+    background-color: rgba(72, 228, 150, 0.562);
+}
+
+.task_student {
+    padding-bottom: 20px;
+    border: 1px solid #1a0f0f70;
+}
