@@ -1,0 +1,18 @@
+#newMessages {
+   
+    border: 1px solid #333;
+}
+
+.message-name {
+    padding-right: 30px;
+}
+
+.btnAdd{
+    background-color: rgb(127, 255, 165);
+}
+#inpForm{
+    background: aliceblue;
+}
+.inp{
+    margin-right:  20px;
+}
